@@ -5,6 +5,7 @@ import { Merriweather, Lato } from "next/font/google";
 
 import { Header } from '@/components/sections/Header';
 import pageConfig from '@/config/landing-page.json';
+import { FloatingWhatsAppButton } from "@/components/FloatingWhatsAppButton";
 
 const merriweather = Merriweather({
   weight: ["700"], // Apenas Bold para títulos
@@ -38,7 +39,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { theme } = pageConfig.settings;
+  const { theme, whatsappLink } = pageConfig.settings;
 
   const navLinks = pageConfig.sections
     // Filtra apenas as seções que têm ID e menuTitle definidos
@@ -67,6 +68,7 @@ export default function RootLayout({
       >
         <Header data={{ ...pageConfig.header, navLinks }} />
         {children}
+        <FloatingWhatsAppButton href={whatsappLink} />
       </body>
     </html>
   );

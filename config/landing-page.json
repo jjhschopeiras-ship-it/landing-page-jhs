@@ -13,8 +13,9 @@
     },
     "seo": {
       "title": "JHS Chopeira",
-      "description": "JHS CHOPEIRA - A melhor chopeira do mercado para sua casa ou negócio. Qualidade, eficiência e design inovador para servir o chopp perfeito. Venda e manutenção"
-    }
+      "description": "JHS CHOPEIRA - A melhor chopeira do mercado para sua casa ou negócio. Qualidade, eficiência e design inovador para servir o chopp perfeito. Venda e manutenção"      
+    },
+    "whatsappLink": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
   },
   "header": {
     "logo": "/images/logojhs.png",

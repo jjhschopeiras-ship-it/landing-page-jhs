@@ -229,6 +229,7 @@ export interface PageConfig {
       title: string;
       description: string;
     };
+    whatsappLink?: string;
   };
   header: {
     logo: string;
