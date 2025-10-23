@@ -68,7 +68,7 @@ export function Header({ data }: { data: HeaderData }) {
                 {link.text}
               </a>
             ))}
-            <Button asChild className="w-full">
+            <Button asChild className="w-full" aria-label='Botão de Contato'>
               <a href={data.ctaButton.href}>{data.ctaButton.text}</a>
             </Button>
           </nav>
