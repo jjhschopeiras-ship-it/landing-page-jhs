@@ -2,11 +2,11 @@ import { cn } from '@/lib/utils';
 import type { GuaranteeData, GuaranteeSettings } from '@/lib/types';
 import Image from 'next/image';
 
-import { ShieldCheck, Lock, type LucideIcon } from 'lucide-react';
+import { Wrench, ThumbsUp, type LucideIcon } from 'lucide-react';
 
 const iconMap: Record<string, LucideIcon> = {
-  ShieldCheck: ShieldCheck,
-  Lock: Lock,
+  Wrench: Wrench,
+  ThumbsUp: ThumbsUp,
 };
 
 const paddingMap = {
@@ -35,7 +35,7 @@ export function Guarantee({ data, settings }: { data: GuaranteeData; settings: G
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4 md:px-6">
 
         {/* Coluna de Texto (Garantia e Selos) */}
-        <div className="">
+        <div className="px-4 md:px-25">
           <h2 className="text-3xl md:text-4xl font-bold font-primary tracking-tighter mb-4">
             {data.title}
           </h2>

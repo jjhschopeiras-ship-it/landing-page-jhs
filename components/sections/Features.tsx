@@ -2,12 +2,14 @@ import { cn } from "@/lib/utils";
 import type { FeaturesData, FeaturesSettings } from '@/lib/types';
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Rocket, BarChart3, ShieldCheck, type LucideIcon } from "lucide-react";
+import { ShoppingCart, Wrench, Thermometer, Clock, MessageSquare, type LucideIcon } from "lucide-react";
 
 const iconMap: Record<string, LucideIcon> = {
-  Rocket: Rocket,
-  BarChart3: BarChart3,
-  ShieldCheck: ShieldCheck,
+  ShoppingCart: ShoppingCart,
+  Wrench: Wrench,
+  Thermometer: Thermometer,
+  Clock: Clock,
+  MessageSquare: MessageSquare,
 }
   
 const paddingMap = {
@@ -45,7 +47,7 @@ export function Features({ data, settings }: { data: FeaturesData; settings: Fea
         </div>
 
         {/* 2. Grid de Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           {data.items.map((item) => {
             // Encontra o componente de Ícone correspondente
             const IconComponent = iconMap[item.icon];

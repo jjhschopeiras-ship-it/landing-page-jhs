@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Button } from '../ui/button';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 interface HeaderData {
@@ -21,7 +22,11 @@ export function Header({ data }: { data: HeaderData }) {
     <header className="fixed top-0 left-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 md:px-6">
         <Link href="/" className="text-xl font-bold text-primary">
-          {data.logo}
+           <Image src={data.logo}
+                      alt="Logo"
+                      width={50}
+                      height={50}
+                    />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">

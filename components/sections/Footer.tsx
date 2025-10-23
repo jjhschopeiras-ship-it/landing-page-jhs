@@ -1,8 +1,7 @@
 
 import type { FooterData, FooterSettings } from '@/lib/types';
 import { Linkedin, Instagram, Twitter, Facebook, Youtube, type LucideIcon } from 'lucide-react';
-// Importar config para pegar o logo do header
-import pageConfig from '@/config/landing-page.json';
+import Image from 'next/image';
 
 const socialIconMap: Record<string, LucideIcon> = {
   LinkedIn: Linkedin,
@@ -15,7 +14,7 @@ const socialIconMap: Record<string, LucideIcon> = {
 export function Footer({ data, settings }: { data: FooterData; settings: FooterSettings }) {
   const bgColor = settings.backgroundColor || 'hsl(var(--primary))';
   const textColor = settings.textColor || 'hsl(var(--primary-foreground))';
-  const logoText = pageConfig.header.logo; // Pega o logo do JSON principal
+  const logoText = data.logoSrc; // Pega o logo do JSON principal
 
   return (
     <footer
@@ -23,7 +22,7 @@ export function Footer({ data, settings }: { data: FooterData; settings: FooterS
         backgroundColor: bgColor,
         color: textColor,
       }}
-      className="w-full pt-12 md:pt-16"
+      className="w-full pt-4 md:pt-8"
     >
       <div className="container mx-auto px-4 md:px-6">
         {/* Grid Principal */}
@@ -34,7 +33,7 @@ export function Footer({ data, settings }: { data: FooterData; settings: FooterS
           {/* Ajustado: items-start para alinhar à esquerda no desktop */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
             <a href="#" className="text-xl font-bold"> {/* Link para home */}
-              {logoText || "SuaMarca"} {/* Mostra o logo do header */}
+              <Image src={logoText} alt="Logo" width={100} height={50}/>
             </a>
           </div>
 

@@ -1,51 +1,47 @@
 {
   "settings": {
     "theme": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#F8FAFC",
-      "backgroundColor": "#FFFFFF",
-      "textColor": "#0F172A",
-      "borderRadius": "0.5rem"
-    },
+              "primaryColor": "#A0522D",     
+              "secondaryColor": "#F5F5DC", 
+              "backgroundColor": "#FFFBF5",
+              "textColor": "#363636",      
+              "borderRadius": "0.5rem"
+              },
     "typography": {
-      "fontPrimary": "Inter",
-      "fontBody": "Inter"
+      "fontPrimary": "Merriweather",
+      "fontBody": "Lato"
     },
     "seo": {
-      "title": "Template de Landing Page Dinâmica",
-      "description": "Um template incrível feito com Next.js e muito amor."
+      "title": "JHS Chopeira",
+      "description": "JHS CHOPEIRA - A melhor chopeira do mercado para sua casa ou negócio. Qualidade, eficiência e design inovador para servir o chopp perfeito. Venda e manutenção"
     }
   },
   "header": {
-    "logo": "SuaMarca",
+    "logo": "/images/logojhs.png",
     "ctaButton": {
       "text": "Fale Conosco",
-      "href": "/contact"
+      "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
     }
   },
   "sections": [
     {
       "component": "Hero",
       "settings": {
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
-        "textColor": "#FFFFFF", 
-        "overlayColor": "#0F172A",
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
+        "textColor": "#FFFFFF",
+        "overlayColor": "#000000",
         "overlayOpacity": 0.6,
         "id": "inicio"     
       },
       "data": {
-        "title": "Construa Landing Pages Incríveis em Minutos",
-        "subtitle": "Este template orientado a dados permite que você altere todo o conteúdo e estilo editando apenas um arquivo. Perfeito para freelancers.",
+        "title": "O chopp perfeito sempre perto de você",
+        "subtitle": "Venda, instalação e manutenção de chopeiras com agilidade e expertise em São Paulo e região. Garanta a qualidade e a temperatura ideal do seu chopp.",
         "ctaButton": {
-          "text": "Comece a Usar",
-          "href": "#features"
+          "text": "Fale com um Especialista",
+          "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
         },
-        "backgroundImageSrc": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070",
-        "image": {
-          "src": "/placeholder.svg",
-          "alt": "Ilustração de um produto digital"
-        }
+        "backgroundImageSrc": "./assets/hero.png"        
       }
     },
   {
@@ -53,129 +49,71 @@
       "settings": {
         "paddingTop": "lg",
         "paddingBottom": "lg",
-        "backgroundColor": "#F8FAFC",
-        "textColor": "#0F172A",
-        "id": "recursos",      
-        "menuTitle": "Recursos"  
+        "backgroundColor": "#FFFBF5",
+        "textColor": "#363636",
+        "id": "serviços",      
+        "menuTitle": "Serviços"  
       },
-      "data": {
-        "title": "Tudo que Você Precisa",
-        "subtitle": "Uma plataforma completa para resolver seu problema, da concepção à implementação, sem dor de cabeça.",
-        "items": [
+"data": {
+        "title": "Venda e Manutenção: A Solução Completa", 
+        "subtitle": "Para bares, restaurantes, eventos e residências que não abrem mão de um chopp de qualidade.", 
+        "ctaButton": {
+          "text": "Fale com um Especialista",
+          "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
+        },
+        "items": [ 
           {
-            "icon": "Rocket",
-            "title": "Lançamento Rápido",
-            "description": "Suba sua aplicação para produção em minutos, não em semanas, com nossa infraestrutura otimizada."
+            "icon": "ShoppingCart", 
+            "title": "Venda e Instalação",
+            "description": "Oferecemos variedade de modelos. Ajudamos na escolha e instalamos para você. Consulte modelos e preços no WhatsApp!" 
           },
           {
-            "icon": "BarChart3",
-            "title": "Dashboards Analíticos",
-            "description": "Entenda seus usuários com dashboards fáceis de usar e tome decisões baseadas em dados."
-          },
-          {
-            "icon": "ShieldCheck",
-            "title": "Segurança de Ponta",
-            "description": "Durma tranquilo sabendo que seus dados estão protegidos com os melhores protocolos de segurança."
+            "icon": "Wrench",
+            "title": "Manutenção Rápida",
+            "description": "Problemas com refrigeração, vazamento ou pressão? Atendimento ágil em São Paulo e região. Agende sua visita pelo WhatsApp!"
           }
         ]
       }
     },
-    {
-      "component": "HowItWorks",
-      "settings": {
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
-        "backgroundColor": "#FFFFFF",
-        "textColor": "#0F172A",
-        "id": "como-funciona",      
-        "menuTitle": "Como Funciona"      
-      },
-      "data": {
-        "title": "Comece em 3 Passos Simples",
-        "subtitle": "Nosso processo é desenhado para ser rápido, eficiente e direto ao ponto, para que você tenha resultados imediatos.",
-        "items": [
-          {
-            "title": "1. Cadastre-se",
-            "description": "Crie sua conta em menos de 60 segundos. Sem necessidade de cartão de crédito."
-          },
-          {
-            "title": "2. Configure",
-            "description": "Conecte suas fontes de dados e personalize suas preferências com nosso guia intuitivo."
-          },
-          {
-            "title": "3. Comece a Usar",
-            "description": "Veja a mágica acontecer. Seus dados sendo processados e insights gerados em tempo real."
-          }
-        ]
-      }
-    },
-    {
-      "component": "Testimonials",
-      "settings": {
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
-        "backgroundColor": "#F8FAFC",
-        "textColor": "#0F172A",
-        "id": "depoimentos",        
-        "menuTitle": "Depoimentos"        
-      },
-      "data": {
-        "title": "O que Nossos Clientes Dizem",
-        "subtitle": "Resultados reais de pessoas reais. Veja como transformamos os negócios de nossos parceiros.",
-        "items": [
-          {
-            "quote": "Esta plataforma mudou completamente nosso fluxo de trabalho. Economizamos mais de 10 horas por semana e reduzimos nossos erros em 30%.",
-            "name": "Maria Silva",
-            "role": "CEO, Tech Solutions",
-            "avatarSrc": "/avatars/maria-silva.png"
-          },
-          {
-            "quote": "O suporte é inacreditável. A equipe nos ajudou a configurar tudo em um dia e esteve disponível para todas as nossas dúvidas. Recomendo 100%.",
-            "name": "João Pereira",
-            "role": "Diretor de Operações, LogiNext",
-            "avatarSrc": "/avatars/joao-pereira.png"
-          },
-          {
-            "quote": "Finalmente uma ferramenta que entrega o que promete. A interface é limpa, os dashboards são intuitivos e os resultados são imediatos.",
-            "name": "Ana Costa",
-            "role": "Gerente de Produto, Innovate Co.",
-            "avatarSrc": "/avatars/ana-costa.png"
-          }
-        ]
-      }
-    },
-    {
+        {
       "component": "Logos",
       "settings": {
-        "paddingTop": "md",   
+        "paddingTop": "md",
         "paddingBottom": "md",
-        "backgroundColor": "#FFFFFF",
-        "textColor": "#0F172A"   ,
-        "id": "clientes"   
+        "backgroundColor": "#FFFBF5",
+        "textColor": "#363636",
+        "id": "parceiros"
       },
       "data": {
-        "title": "Confiado pelas melhores empresas do mundo",
+        "title": "Alguns de Nossos Modelos de Chopeiras", 
+        "items": [ 
+          { "src": "/chopeiras/1.jpg", "alt": "Chopeira 1" },
+          { "src": "/chopeiras/2.jpg", "alt": "Chopeira 2" },
+          { "src": "/chopeiras/3.jpg", "alt": "Chopeira 3" },
+          { "src": "/chopeiras/4.jpg", "alt": "Chopeira 4" },
+          { "src": "/chopeiras/5.jpg", "alt": "Chopeira 5" },
+          { "src": "/chopeiras/6.jpg", "alt": "Chopeira 6" }
+        ]
+      }
+    },
+    {
+      "component": "Features", 
+      "settings": {
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
+        "backgroundColor": "#F5F5DC", 
+        "textColor": "#363636",
+        "id": "beneficios",
+        "menuTitle": "Benefícios"
+      },
+      "data": {
+        "title": "Qualidade e Confiança para o Seu Chopp", 
+        "subtitle": "",
         "items": [
-          {
-            "src": "https://placehold.co/150x60/f0f0f0/a1a1a1?text=LogoEmpresa",
-            "alt": "Logo Empresa 1"
-          },
-          {
-            "src": "https://placehold.co/150x60/f0f0f0/a1a1a1?text=LogoEmpresa",
-            "alt": "Logo Empresa 2"
-          },
-          {
-            "src": "https://placehold.co/150x60/f0f0f0/a1a1a1?text=LogoEmpresa",
-            "alt": "Logo Empresa 3"
-          },
-          {
-            "src": "https://placehold.co/150x60/f0f0f0/a1a1a1?text=LogoEmpresa",
-            "alt": "Logo Empresa 4"
-          },
-          {
-            "src": "https://placehold.co/150x60/f0f0f0/a1a1a1?text=LogoEmpresa",
-            "alt": "Logo Empresa 5"
-          }
+          { "icon": "Thermometer", "title": "Chopp Sempre Gelado", "description": "Garantia de temperatura perfeita para a melhor experiência." }, 
+          { "icon": "Wrench", "title": "Técnicos Especializados", "description": "Equipe experiente pronta para resolver qualquer problema." }, 
+          { "icon": "Clock", "title": "Atendimento Rápido", "description": "Agilidade na visita técnica em São Paulo e região." },
+          { "icon": "MessageSquare", "title": "Orçamento Fácil via WhatsApp", "description": "Cotação rápida e sem complicação direto no seu celular." } 
         ]
       }
     },
@@ -184,182 +122,51 @@
       "settings": {
         "paddingTop": "lg",
         "paddingBottom": "lg",
-        "backgroundColor": "#F8FAFC", 
-        "textColor": "#0F172A"
+        "backgroundColor": "#F5F5DC", 
+        "textColor": "#363636"
       },
       "data": {
-        "title": "Risco Zero, Satisfação Garantida",
-        "description": "Estamos tão confiantes de que você vai adorar nossa solução que oferecemos 30 dias de garantia incondicional. Se você não ficar satisfeito, devolvemos 100% do seu dinheiro. Sem perguntas.",
+        "title": "Serviço Confiável e Garantido", 
+        "description": "Utilizamos peças de qualidade e nossos técnicos são experientes. Oferecemos garantia em todos os nossos serviços de manutenção para sua tranquilidade.", 
         "badge": {
-          "src": "https://placehold.co/300x300/f0f0f0/a1a1a1?text=Selo+30+Dias",
-          "alt": "Selo de 30 dias de garantia"
+          "src": "/images/selo.webp",
+          "alt": "Selo de Qualidade Garantida JHS"
         },
         "seals": [
-          {
-            "icon": "ShieldCheck",
-            "text": "Pagamento 100% Seguro"
-          },
-          {
-            "icon": "Lock",
-            "text": "Privacidade e Dados Criptografados"
-          }
+          { "icon": "Wrench", "text": "Técnicos Qualificados" },
+          { "icon": "ThumbsUp", "text": "Peças de Reposição Confiáveis" }
         ]
-      }
-    },
-    {
-      "component": "Pricing",
-      "settings": {
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
-        "backgroundColor": "#FFFFFF",
-        "textColor": "#0F172A",
-        "id": "precos",         
-        "menuTitle": "Preços"   
-      },
-      "data": {
-        "title": "Planos Feitos Para Você",
-        "subtitle": "Escolha o plano que melhor se adapta ao seu estágio de crescimento. Cancele quando quiser.",
-        "plans": [
-          {
-            "name": "Básico",
-            "price": "R$ 29",
-            "period": "/mês",
-            "description": "Para indivíduos e freelancers que estão começando.",
-            "features": [
-              "1 Projeto",
-              "Até 10.000 visualizações",
-              "Analytics básicos",
-              "Suporte por E-mail"
-            ],
-            "isFeatured": false,
-            "ctaButton": {
-              "text": "Começar Agora",
-              "href": "/signup-basic"
-            }
-          },
-          {
-            "name": "Profissional",
-            "price": "R$ 79",
-            "period": "/mês",
-            "description": "Para pequenas empresas e equipes em crescimento.",
-            "features": [
-              "10 Projetos",
-              "Até 100.000 visualizações",
-              "Analytics avançados",
-              "Suporte Prioritário (Chat)",
-              "Integrações API"
-            ],
-            "isFeatured": true,
-            "ctaButton": {
-              "text": "Começar Agora",
-              "href": "/signup-pro"
-            }
-          },
-          {
-            "name": "Empresarial",
-            "price": "Customizado",
-            "period": "",
-            "description": "Para grandes empresas com necessidades escaláveis.",
-            "features": [
-              "Projetos Ilimitados",
-              "Visualizações Ilimitadas",
-              "SSO e SAML",
-              "Gerente de Conta Dedicado",
-              "SLA de 99.9%"
-            ],
-            "isFeatured": false,
-            "ctaButton": {
-              "text": "Entre em Contato",
-              "href": "/contact-sales"
-            }
-          }
-        ]
-      }
-    },
-   {
-      "component": "Faq",
-      "settings": {
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
-        "backgroundColor": "#F8FAFC", 
-        "textColor": "#0F172A"
-      },
-      "data": {
-        "title": "Perguntas Frequentes",
-        "subtitle": "Ainda tem dúvidas? Encontre as respostas mais comuns abaixo ou entre em contato conosco.",
-        "items": [
-          {
-            "question": "Como funciona o período de teste gratuito?",
-            "answer": "Você pode usar todas as funcionalidades do plano Profissional por 14 dias, sem necessidade de cartão de crédito. Ao final do período, você pode escolher um plano pago ou sua conta será automaticamente revertida para o plano gratuito (se houver)."
-          },
-          {
-            "question": "Posso cancelar minha assinatura a qualquer momento?",
-            "answer": "Sim! Nossos planos são sem fidelidade. Você pode cancelar sua assinatura quando quiser, diretamente no painel da sua conta. O acesso permanecerá ativo até o final do período já pago."
-          },
-          {
-            "question": "Quais integrações estão disponíveis?",
-            "answer": "Oferecemos integrações nativas com as principais ferramentas do mercado, como Google Analytics, Slack, Zapier e muitas outras. Além disso, nossa API robusta permite que você crie suas próprias integrações."
-          },
-          {
-            "question": "O suporte técnico está incluído?",
-            "answer": "Sim, todos os planos incluem suporte via e-mail. Os planos Profissional e Empresarial contam com suporte prioritário via chat e telefone, respectivamente."
-          }
-        ]
-      }
-    },
-    {
-      "component": "AboutUs",
-      "settings": {
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
-        "backgroundColor": "#FFFFFF", 
-        "textColor": "#0F172A"
-      },
-      "data": {
-        "title": "Nossa Missão",
-        "paragraphs": [
-          "Nascemos da frustração com ferramentas complicadas e caras. Nossa missão é democratizar o acesso à tecnologia de ponta para empresas de todos os tamanhos.",
-          "Acreditamos que um software poderoso não precisa ser difícil de usar. Nossa equipe é composta por especialistas dedicados a criar soluções intuitivas que resolvem problemas reais."
-        ],
-        "image": {
-          "src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071",
-          "alt": "Equipe trabalhando em um escritório moderno"
-        },
-        "ctaButton": {
-          "text": "Conheça nossa história",
-          "href": "/sobre"
-        }
       }
     },
     {
       "component": "Footer",
-      "settings": {        
-        "backgroundColor": "#0F172A", 
-        "textColor": "#FFFFFF"        
+      "settings": {
+        "backgroundColor": "#A0522D",
+        "textColor": "#FFFFFF"     
       },
       "data": {
-        "copyrightText": "© 2025 SuaMarca Inc. Todos os direitos reservados.",
-        "socialLinks": [
-          { "platform": "LinkedIn", "href": "https://linkedin.com/in/seu-perfil" },
-          { "platform": "Instagram", "href": "https://instagram.com/seu-perfil" },
-          { "platform": "Twitter", "href": "https://x.com/seu-perfil" }
-        ],
-        "linkColumns": [
-          {
-            "title": "Produto",
-            "links": [
-              { "text": "Recursos", "href": "#features" },
-              { "text": "Preços", "href": "#pricing" }
-            ]
-          },
-          {
-            "title": "Legal",
-            "links": [
-              { "text": "Política de Privacidade", "href": "/privacy" },
-              { "text": "Termos de Uso", "href": "/terms" }
-            ]
-          }
-        ]
+        "logoSrc": "/images/logojhswhite.png",
+        "copyrightText": "© 2025 JHS Chopeiras. Todos os direitos reservados. São Paulo/SP.", 
+        "socialLinks": [ 
+          { "platform": "Facebook", "href": "https://www.facebook.com/jhschopeira" },
+          { "platform": "Instagram", "href": "https://www.instagram.com/jhschopeira" }       
+        ], 
+         "linkColumns": [
+           {
+             "title": "Contato Rápido",
+             "links": [ 
+              { "text": "WhatsApp Direto", "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0" },
+              { "text": "E-mail", "href": "" } ]
+           },
+            {
+              "title": "Navegação",
+              "links": [
+                { "text": "Início", "href": "#inicio" },
+                { "text": "Serviços", "href": "#serviços" },
+                { "text": "Benefícios", "href": "#beneficios" }
+              ]
+            }
+         ]
       }
     }
   ]

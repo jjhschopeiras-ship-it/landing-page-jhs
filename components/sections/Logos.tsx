@@ -32,23 +32,20 @@ export function Logos({ data, settings }: { data: LogosData; settings: LogosSett
         </h3>
 
         {/* 2. Fileira de Logos */}
-        <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8">
+        <div className="flex flex-wrap items-top justify-center gap-x-12 gap-y-8 ">
           {data.items.map((item) => (
             <Image
               key={item.alt}
               src={item.src}
               alt={item.alt}
-              width={150} // Largura padrão do logo
-              height={60} // Altura padrão do logo
-              unoptimized
+              width={200} // Largura padrão do logo
+              height={200}
               className="
-                object-contain     // Garante que o logo não distorça
-                grayscale          // Começa em preto e branco
-                opacity-60         // Começa semi-transparente
-                hover:grayscale-0  // Em hover, fica colorido
-                hover:opacity-100  // Em hover, opacidade total
+                object-cover     // Garante que o logo não distorça
+                hover:scale-105                
                 transition-all     // Transição suave
                 duration-300
+                rounded-lg
               "
             />
           ))}
