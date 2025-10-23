@@ -27,7 +27,7 @@ export function Hero({ data, settings }: { data: HeroData; settings: HeroSetting
       // - 'min-h-[calc(100vh-4rem)]': Preenche o resto da tela (abaixo do header)
       // - 'bg-cover bg-center': Garante que a imagem cubra o espaço
       className={cn(
-        "relative w-full flex items-center justify-center min-h-[calc(100vh-4rem)] bg-cover bg-center"
+        "relative w-full flex items-center justify-center min-h-[calc(100vh-4rem)] bg-cover bg-left"
       )}
     >
       {/* 3. O Overlay (Filtro) */}
