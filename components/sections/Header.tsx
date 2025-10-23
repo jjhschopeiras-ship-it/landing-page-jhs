@@ -39,14 +39,14 @@ export function Header({ data }: { data: HeaderData }) {
               {link.text}
             </a>
           ))}
-          <Button name='Botão de Contato' asChild>
+          <Button aria-label='Botão de Contato' asChild>
             <a href={data.ctaButton.href}>{data.ctaButton.text}</a>
           </Button>
         </nav>
 
         <div className="md:hidden">
           <Button
-            name='Menu mobile'
+            aria-label='Menu mobile'
             variant="ghost"
             size="icon"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
