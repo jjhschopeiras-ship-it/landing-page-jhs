@@ -42,7 +42,7 @@
           "text": "Fale com um Especialista",
           "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
         },
-        "backgroundImageSrc": "./assets/hero.png"        
+        "backgroundImageSrc": "./assets/hero.webp"        
       }
     },
   {
