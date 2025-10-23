@@ -187,6 +187,7 @@ export interface FooterSettings {
 }
 
 export interface FooterData {
+  logoSrc: string;
   copyrightText: string;
   socialLinks: {
     platform: "LinkedIn" | "Instagram" | "Facebook" | "Twitter" | "Youtube"; // Nomes dos ícones Lucide + nomes comuns
