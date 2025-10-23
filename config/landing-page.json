@@ -15,13 +15,13 @@
       "title": "JHS Chopeira",
       "description": "JHS CHOPEIRA - A melhor chopeira do mercado para sua casa ou negócio. Qualidade, eficiência e design inovador para servir o chopp perfeito. Venda e manutenção"      
     },
-    "whatsappLink": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
+    "whatsappLink": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
   },
   "header": {
     "logo": "/images/logojhs.png",
     "ctaButton": {
       "text": "Fale Conosco",
-      "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
+      "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
     }
   },
   "sections": [
@@ -40,7 +40,7 @@
         "subtitle": "Venda, instalação e manutenção de chopeiras com agilidade e expertise em São Paulo e região. Garanta a qualidade e a temperatura ideal do seu chopp.",
         "ctaButton": {
           "text": "Fale com um Especialista",
-          "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
+          "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
         },
         "backgroundImageSrc": "./assets/hero.webp"        
       }
@@ -60,7 +60,7 @@
         "subtitle": "Para bares, restaurantes, eventos e residências que não abrem mão de um chopp de qualidade.", 
         "ctaButton": {
           "text": "Fale com um Especialista",
-          "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0"
+          "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
         },
         "items": [ 
           {
@@ -156,7 +156,7 @@
            {
              "title": "Contato Rápido",
              "links": [ 
-              { "text": "WhatsApp Direto", "href": "https://api.whatsapp.com/message/YCBV6EB674T2D1?autoload=1&app_absent=0" },
+              { "text": "WhatsApp Direto", "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." },
               { "text": "E-mail", "href": "" } ]
            },
             {
