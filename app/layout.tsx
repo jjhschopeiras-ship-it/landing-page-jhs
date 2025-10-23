@@ -1,0 +1,77 @@
+import type { Metadata } from 'next';
+import './globals.css';
+
+import { Inter, Poppins, Roboto_Slab } from 'next/font/google';
+
+import { Header } from '@/components/sections/Header';
+import pageConfig from '@/config/landing-page.json';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-body' });
+const poppins = Poppins({
+  weight: ['400', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-primary',
+});
+
+const roboto_slab = Roboto_Slab({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  variable: '--font-primary',
+});
+
+const fontMap = {
+  Inter: inter,
+  Poppins: poppins,
+  Roboto_Slab: roboto_slab,
+};
+
+const primaryFontFamily =
+  fontMap[pageConfig.settings.typography.fontPrimary as keyof typeof fontMap] ||
+  inter;
+const bodyFontFamily =
+  fontMap[pageConfig.settings.typography.fontBody as keyof typeof fontMap] ||
+  inter;
+
+export const metadata: Metadata = {
+  title: pageConfig.settings.seo.title,
+  description: pageConfig.settings.seo.description,
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const { theme } = pageConfig.settings;
+
+  const navLinks = pageConfig.sections
+    // Filtra apenas as seções que têm ID e menuTitle definidos
+    .filter(section => section.settings?.id && section.settings?.menuTitle)
+    // Mapeia para o formato { text, href } esperado pelo Header
+    .map(section => ({
+      text: section.settings.menuTitle!, // '!' assume que menuTitle existe após o filter
+      href: `#${section.settings.id!}`,  // '!' assume que id existe após o filter
+    }));
+
+  return (
+    <html
+      lang="pt-BR"
+      style={
+        {
+          '--background': theme.backgroundColor,
+          '--foreground': theme.textColor,
+          '--primary': theme.primaryColor,
+          '--secondary': theme.secondaryColor,
+          '--radius': theme.borderRadius,
+        } as React.CSSProperties
+      }
+    >
+      <body
+        className={`${primaryFontFamily.variable} ${bodyFontFamily.variable} font-body pt-16`}
+      >
+        <Header data={{ ...pageConfig.header, navLinks }} />
+        {children}
+      </body>
+    </html>
+  );
+}
