@@ -35,7 +35,7 @@ export function Guarantee({ data, settings }: { data: GuaranteeData; settings: G
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4 md:px-6">
 
         {/* Coluna de Texto (Garantia e Selos) */}
-        <div className="px-4 md:px-25">
+        <div className="px-4 md:px-6">
           <h2 className="text-3xl md:text-4xl font-bold font-primary tracking-tighter mb-4">
             {data.title}
           </h2>
