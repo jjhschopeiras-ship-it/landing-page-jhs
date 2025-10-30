@@ -66,12 +66,12 @@
           {
             "icon": "ShoppingCart", 
             "title": "Venda e Instalação",
-            "description": "Oferecemos variedade de modelos. Ajudamos na escolha e instalamos para você. Consulte modelos e preços no WhatsApp!" 
+            "description": "Oferecemos variedade de modelos. Ajudamos na escolha e instalamos para você. Consulte modelos e preços no <a href=\"https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.\">WhatsApp</a>!" 
           },
           {
             "icon": "Wrench",
             "title": "Manutenção Rápida e Completa",
-            "description": "Resolvemos todos os tipos de problemas com a sua chopeira. Atendimento ágil em todo o BRASIL. Agende sua visita pelo WhatsApp!"
+            "description": "Resolvemos todos os tipos de problemas com a sua chopeira. Atendimento ágil em todo o BRASIL. Agende sua visita pelo <a href=\"https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.\">WhatsApp</a>!"
           }
         ]
       }
@@ -114,7 +114,7 @@
           { "icon": "Thermometer", "title": "Chopp Sempre Gelado", "description": "Garantia de temperatura perfeita para a melhor experiência." }, 
           { "icon": "Wrench", "title": "Técnicos Especializados", "description": "Equipe experiente pronta para resolver qualquer problema." }, 
           { "icon": "Clock", "title": "Atendimento Rápido", "description": "Agilidade na visita técnica em todo o BRASIL." },
-          { "icon": "MessageSquare", "title": "Orçamento Fácil via WhatsApp", "description": "Cotação rápida e sem complicação direto no seu celular." } 
+          { "icon": "MessageSquare", "title": "Orçamento Fácil via <a href=\"https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.\">WhatsApp</a>", "description": "Cotação rápida e sem complicação direto no seu celular." } 
         ]
       }
     },
