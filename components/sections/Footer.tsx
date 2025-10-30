@@ -27,7 +27,7 @@ export function Footer({ data, settings }: { data: FooterData; settings: FooterS
       <div className="container mx-auto px-4 md:px-6">
         {/* Grid Principal */}
         {/* Mantemos md:grid-cols-3, mas ajustamos alinhamentos internos */}
-        <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
           {/* Coluna 1: Logo */}
           {/* Ajustado: items-start para alinhar à esquerda no desktop */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
@@ -39,7 +39,7 @@ export function Footer({ data, settings }: { data: FooterData; settings: FooterS
           {/* Coluna 2: Links Úteis */}
           {/* Ajustado: text-center md:text-left nas colunas internas */}
           {data.linkColumns && data.linkColumns.length > 0 && (
-            <div className="grid grid-cols-2 gap-2 text-left">
+            <div className="grid grid-cols-2 gap-4 text-left">
               {data.linkColumns.map((column) => (
                 <div key={column.title} className="space-y-3">
                   <h4 className="font-semibold font-primary">{column.title}</h4>
