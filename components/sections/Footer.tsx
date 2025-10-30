@@ -27,8 +27,7 @@ export function Footer({ data, settings }: { data: FooterData; settings: FooterS
       <div className="container mx-auto px-4 md:px-6">
         {/* Grid Principal */}
         {/* Mantemos md:grid-cols-3, mas ajustamos alinhamentos internos */}
-        <div className="grid grid-cols-1 items-center md:grid-cols-6 mb-8 md:items-start">
-
+        <div className="flex flex-col gap-4 md:flex-row md:justify-between">
           {/* Coluna 1: Logo */}
           {/* Ajustado: items-start para alinhar à esquerda no desktop */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
