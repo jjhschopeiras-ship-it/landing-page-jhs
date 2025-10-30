@@ -1,6 +1,6 @@
 
 import type { FooterData, FooterSettings } from '@/lib/types';
-import { Linkedin, Instagram, Twitter, Facebook, Youtube, type LucideIcon } from 'lucide-react';
+import { Linkedin, Instagram, Twitter, Facebook, Youtube, PhoneCallIcon, Mail, type LucideIcon } from 'lucide-react';
 import Image from 'next/image';
 
 const socialIconMap: Record<string, LucideIcon> = {
@@ -49,8 +49,10 @@ export function Footer({ data, settings }: { data: FooterData; settings: FooterS
                       <li key={link.text}>
                         <a
                           href={link.href}
-                          className="text-sm opacity-80 hover:opacity-100 transition-opacity"
+                          className="flex items-end gap-2 text-sm opacity-80 hover:opacity-100 transition-opacity"
                         >
+                          {PhoneCallIcon && link.text.includes('(') && <PhoneCallIcon className="h-4 w-4" />}
+                          {Mail && link.text.toLowerCase().includes('@') && <Mail className="h-4 w-4" />}
                           {link.text}
                         </a>
                       </li>

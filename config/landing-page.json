@@ -15,13 +15,13 @@
       "title": "JHS Chopeira",
       "description": "JHS CHOPEIRA - A melhor chopeira do mercado para sua casa ou negócio. Qualidade, eficiência e design inovador para servir o chopp perfeito. Venda e manutenção"      
     },
-    "whatsappLink": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+    "whatsappLink": "https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
   },
   "header": {
     "logo": "/images/logojhs.png",
     "ctaButton": {
       "text": "Fale Conosco",
-      "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+      "href": "https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
     }
   },
   "sections": [
@@ -37,10 +37,10 @@
       },
       "data": {
         "title": "O chopp perfeito sempre perto de você",
-        "subtitle": "Venda, instalação e manutenção de chopeiras com agilidade e expertise em São Paulo e região. Garanta a qualidade e a temperatura ideal do seu chopp.",
+        "subtitle": "Venda, instalação e manutenção de chopeiras com agilidade e expertise para todo o BRASIL. Garanta a qualidade e a temperatura ideal do seu chopp.",
         "ctaButton": {
           "text": "Fale com um Especialista",
-          "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+          "href": "https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
         },
         "backgroundImageSrc": "./assets/hero.webp"        
       }
@@ -60,7 +60,7 @@
         "subtitle": "Para bares, restaurantes, eventos e residências que não abrem mão de um chopp de qualidade.", 
         "ctaButton": {
           "text": "Fale com um Especialista",
-          "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+          "href": "https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
         },
         "items": [ 
           {
@@ -70,8 +70,8 @@
           },
           {
             "icon": "Wrench",
-            "title": "Manutenção Rápida",
-            "description": "Problemas com refrigeração, vazamento ou pressão? Atendimento ágil em São Paulo e região. Agende sua visita pelo WhatsApp!"
+            "title": "Manutenção Rápida e Completa",
+            "description": "Resolvemos todos os tipos de problemas com a sua chopeira. Atendimento ágil em todo o BRASIL. Agende sua visita pelo WhatsApp!"
           }
         ]
       }
@@ -113,7 +113,7 @@
         "items": [
           { "icon": "Thermometer", "title": "Chopp Sempre Gelado", "description": "Garantia de temperatura perfeita para a melhor experiência." }, 
           { "icon": "Wrench", "title": "Técnicos Especializados", "description": "Equipe experiente pronta para resolver qualquer problema." }, 
-          { "icon": "Clock", "title": "Atendimento Rápido", "description": "Agilidade na visita técnica em São Paulo e região." },
+          { "icon": "Clock", "title": "Atendimento Rápido", "description": "Agilidade na visita técnica em todo o BRASIL." },
           { "icon": "MessageSquare", "title": "Orçamento Fácil via WhatsApp", "description": "Cotação rápida e sem complicação direto no seu celular." } 
         ]
       }
@@ -156,8 +156,8 @@
            {
              "title": "Contato Rápido",
              "links": [ 
-              { "text": "WhatsApp Direto", "href": "https://wa.me/551128253637?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." },
-              { "text": "E-mail", "href": "" } ]
+              { "text": "(11) 92166-1784", "href": "https://wa.me/5511921661784?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." },
+              { "text": "vendas@jhschopeira.com.br", "href": "mailto:vendas@jhschopeira.com.br" } ]
            },
             {
               "title": "Navegação",
