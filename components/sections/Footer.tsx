@@ -40,7 +40,7 @@ export function Footer({ data, settings }: { data: FooterData; settings: FooterS
           {/* Coluna 2: Links Úteis */}
           {/* Ajustado: text-center md:text-left nas colunas internas */}
           {data.linkColumns && data.linkColumns.length > 0 && (
-            <div className="grid grid-cols-2 gap-12 text-left">
+            <div className="grid grid-cols-2 gap-15 text-left">
               {data.linkColumns.map((column) => (
                 <div key={column.title} className="space-y-3">
                   <h4 className="font-semibold font-primary">{column.title}</h4>
