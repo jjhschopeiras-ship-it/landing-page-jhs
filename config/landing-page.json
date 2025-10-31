@@ -32,7 +32,7 @@
         "paddingBottom": "xl",
         "textColor": "#FFFFFF",
         "overlayColor": "#000000",
-        "overlayOpacity": 0.6,
+        "overlayOpacity": 0,
         "id": "inicio"     
       },
       "data": {
