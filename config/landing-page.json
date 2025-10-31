@@ -30,7 +30,7 @@
       "settings": {
         "paddingTop": "xl",
         "paddingBottom": "xl",
-        "textColor": "##363636",
+        "textColor": "#FFFFFF",
         "overlayColor": "#000000",
         "overlayOpacity": 0.1,
         "id": "inicio"     
