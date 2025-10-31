@@ -53,7 +53,7 @@ export function Hero({ data, settings }: { data: HeroData; settings: HeroSetting
           color: settings.textColor
         }}
       >
-        <div className="space-y-6 max-h-2/4">
+        <div className="space-y-6 max-h-[600px]">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter font-primary">
             {data.title}
           </h1>
